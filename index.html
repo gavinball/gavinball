@@ -1,7 +1,68 @@
 <!DOCTYPE html>
 <html>
-
+<head>
+	<title>My First Webpage</title>
+	<meta charset="utf-8" />
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1" />
+	<meta name="keywords"  content="HTML" />
+</head>
 <body>
-	<h1>Hello World!</h1>
+	<h1>Hello</h1>
+	
+	<h2>Welcome to this webpage</h2>
+	
+	<p><em>I am making this page from scratch</em><br />This is a new line. <br />And <strong>this</strong> is another one.<br /><strong><u>THIS</u></strong> is the last one.</p>
+	
+	<div>Following this, there will be a list.  First unordered, just using bullets, then another list.<br />This time ordered with numbers.
+		<ul>
+			<li>a thing</li>
+			<li>a thing</li>
+			<li>a thing</li>
+			<li>a thing</li>
+		</ul>
+		<ol>
+			<li>first thing</li>
+			<li>second thing</li>
+			<li>third thing</li>
+			<li>forth thing</li>
+		</ol>
+	</div>
+
+	<div>
+		<p>Picture time!</p>
+		<img src="Giant1.jpg" width="300" />
+		<p>Now a list of Monsters!</p>
+		<ul>
+			<li><img src="Giant1.jpg" width="200" /></li>
+			<li><img src="Giant1.jpg" width="150" height="30" /></li>
+			<li><img src="Giant1.jpg" width="100" height="300" /></li>
+			<li><img src="Giant1.jpg" width="50" /></li>
+			<li><img src="Giant1.jpg" /></li>
+		</ul>
+		<p>Now a picuture from relative directory "./images"</p>
+		<img src="images/Alien-Planet.jpg" alt="Alien Planet">
+		<p>One more image, this time from the web...</p>
+		<img src="https://fm.cnbc.com/applications/cnbc.com/resources/img/editorial/2018/09/20/105462405-1537464466367gettyimages-1036099120.530x298.jpeg?v=1537464490">
+	</div>
+	<div>
+		<p>&lt;this looks like a tag&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;with spaces&gt;</p>
+		<form action="/action_page.php" method="post">
+			Date<input type="date" name="d" ><br />
+			Email<input type="email" name="em" ><br />
+			First Name: <input type="text" name="firstname"><br />
+			Last Name: <input type="text" name="lastname"><br />
+			Username: <input type="text" name="Username"><br />
+			Password: <input type="password" name="pw"><br />
+			<input type="submit" name="Submit"><br />
+			<br />
+			<br />
+		</form>
+	</div>
+
+	<div>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/FYSHNalUpKQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+	</div>
+
 </body>	
 </html>
